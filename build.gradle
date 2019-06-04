@@ -1,0 +1,17 @@
+group 'jp.toastkid'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+
+mainClassName = "jp.toastkid.verification.javalin.Main"
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'io.javalin:javalin:3.0.0.RC3'
+    implementation 'org.slf4j:slf4j-simple:1.7.26'
+}
